@@ -1,0 +1,4 @@
+#!/bin/bash          
+cwd=$(dirname "$0")
+cd $cwd
+python .grade.py
